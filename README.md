@@ -9,7 +9,7 @@ Some commands like local-exec in inside of `cluster.tf` maybe the external IP of
 
 # requirements
 
-- You will need account.json to refer into `variables.tf` which should be a service account in gcloud
+- You will need the credentials-file (e.g ${file("~/default.json")}" ) to refer into `provider.tf` which should be a service account in gcloud
 - Chek if you will need to change the `variables.tf` with project name that has a compute API enabled
 
 # Just run

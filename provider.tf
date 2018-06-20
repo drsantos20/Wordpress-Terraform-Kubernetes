@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("~/Downloads/k8-wordpress-mysql-32bde434dce6.json")}"
+  credentials = "path_to_the_file"        // e.g "${file("~/project.json")}"
   project     = "${var.gcp-project-name}"
   region      = "${var.gcp-region}"
 }
