@@ -1,7 +1,7 @@
 
 # Infrastructure as a code with terraform
 
-![kubernetes](kubernetes.png)    ![terraform](terraform.png)
+![cluster](cluster.png)
 
 This is a simple example to provide wordpress into kubernetes cluster
 
